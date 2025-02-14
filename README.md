@@ -18,7 +18,6 @@ ATM_Project_Console_Based is a simple console-based banking system implemented i
 - The program runs in a loop until the user selects the exit option.
 
 ## How to Use
-
 1. **Clone the repository:**
     ```bash
     git clone https://github.com/yourusername/ATM_Project_Console_Based.git
@@ -40,11 +39,30 @@ ATM_Project_Console_Based is a simple console-based banking system implemented i
 This project uses a dictionary (`accounts`) to store account details:
 
 ```python
+
 accounts = {
-    2001: [9200, 9347, "user1@gmail.com", "user1"],
-    2002: [2040, 8096, "user2@gmail.com", "user2"],
-    2003: [19000, None, "user3@gmail.com", "user3"]
-}
+    2001:[9200,9347,"user1@gmail.com","user1"],
+    2002:[2040,8096,"user2@gmail.com","user2"],
+    2003:[19000,None,"user3@gmail.com","user3"]
+    }
+   ```
+Each account consists of:
+
+- **Balance**: Initial deposit amount
+- **PIN**: Security PIN for transactions (if set)
+- **Email**: User's registered email
+- **Username**: Account holder's name
+
+## Requirements
+- Python 3.x
+
+## Notes
+- This is a basic implementation and does not persist data after execution.
+- For security purposes, PINs are required for withdrawals and modifications.
+- The project can be extended by integrating a database for persistent storage.
+
+## License
+This project is open-source and available for modification and distribution.
 
 
 
