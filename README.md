@@ -45,20 +45,6 @@ accounts = {
     2002: [2040, 8096, "user2@gmail.com", "user2"],
     2003: [19000, None, "user3@gmail.com", "user3"]
 }
-##Each account consists of:
 
-Balance: Initial deposit amount
-PIN: Security PIN for transactions (if set)
-Email: User's registered email
-Username: Account holder's name
 
-##Requirements
-Python 3.x
 
-##Notes
-This is a basic implementation and does not persist data after execution.
-For security purposes, PINs are required for withdrawals and modifications.
-The project can be extended by integrating a database for persistent storage.
-
-##License
-This project is open-source and available for modification and distribution.
